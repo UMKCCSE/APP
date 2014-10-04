@@ -1,0 +1,89 @@
+
+
+Oshani Titti (40) (SG-19)
+Pathath Ram Shasank (52) (SG-19) 
+Janga Likitha (15) (SG-25)
+Kishore Babani (04) (SG-25)
+
+
+Dr. Yugyung Lee
+CS 551: Advance Software engineering
+October 3, 2014
+
+
+
+Project Plan
+
+Introduction
+App store is an open source app for windows and android phone. We can use the same app for both the phones to download different apps. This reduces the time and expense associated with building and maintaining an app for each type of device.
+
+
+Proposed system
+App store is an application where user with either android or windows phone can download apps. First the user needs to register in the sign up page if they want to download the apps. Guest users can only view the apps. This app will guide the user by suggesting good apps along with the reviews and ratings. Once the user logins the app store will show all the respective apps of their OS. User can search the apps based on the category like games, dictionary, music etc. On selecting the app, the user can view the description, reviews, rating and other suggested apps. User can download the app or view other apps to meet their requirements. The user will get notifications about recommended apps.
+
+
+CLASS DIAGRAM:  
+
+
+
+ACTIVITY DIAGRAM:
+ 
+
+Sequence diagram
+
+ 
+
+ARCHITECTURE DIAGRAM:
+
+
+ 
+
+Software Specifications
+
+Tools: Visual Studio
+Languages: Java, C#, ASP.net, ADO.net
+Database: SQL Server, SQLite
+
+Task Planning
+Schedule for the four different increments (for each increment, do the following tasks)
+●	Epic: Increment 1 - Requirement Gathering and Designing the application
+•	Divide the work for each people
+•	Design Login Page
+•	Design the Apps
+●	Epic: Increment 2- coding 
+•	Implement Login Page
+•	Implement the Apps
+●	Epic: Increment 3 - coding
+•	Test Login Page
+•	Test the Apps
+●	Epic: Increment 4 - Refine GUI
+•	Refine GUI for Login Page
+•	Refine GUI for Apps
+●	Epic: Final Project - Deploy the components and complete documentation.
+
+Stories (features): 
+4 Stories have been developed to fit into each of the above iterations, based upon the features mentioned above for the application.
+
+ScrumDo URL: http://www.scrumdo.com/projects/project/app_store/summary# 
+
+Team Members:
+
+•	Oshani Titti (ot8r8@mail.umkc.edu)
+•	Pathath Ram Shasank (rp6x6@mail.umkc.edu)
+•	Likitha Janga(lj8rd@mail.umkc.edu)
+•	Kishore Babani  (bkdh8@mail.umkc.edu)
+
+
+
+References
+
+http://developer.android.com/training/basics/firstapp/index.html?hl=p
+
+http://msdn.microsoft.com/en-us/windowsmobile/bb250560.aspx
+
+https://play.google.com/store?hl=en
+
+http://www.windowsphone.com/en-us/store
+
+
+
