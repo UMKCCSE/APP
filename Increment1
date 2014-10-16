@@ -1,0 +1,168 @@
+
+  CHOOSE YOUR APP
+
+`		INCREMENT-I
+
+
+
+
+Dr. Yugyung Lee
+CS 551: Advance Software engineering
+October 15, 2014
+
+
+Oshani Titti (40) (SG-19)
+Pathath Ram Shasank (52) (SG-19) 
+Janga Likitha (15) (SG-25)
+Kishore Babani (04) (SG-25)
+
+
+
+
+
+1.Introduction:
+App store is an open source app for windows and android phone. We can use the same app for both the phones to download different apps. This reduces the time and expense associated with building and maintaining an app for each type of device.
+
+2.Overall goal and objectives:
+Goal
+Our main goal is develop an app for different users with different O.S. and to notify them about the applications.
+
+Objectives
+We are designing a web application to enable the user to choose the apps of his interest and they can rate or review them. They can even know the details of the applications.
+Significance 
+We will work towards satisfying the user by notifying them about the applications that are of similar interests and they can even download them.
+
+
+
+
+3.Existing work
+https://play.google.com/store/apps?hl=en
+http://www.infoworld.com/article/2623386/open-source-software/open-source-and-app-stores--where-they-mix--where-they-don-t.html
+http://www.infoworld.com/article/2623325/mobile-apps/study--70-percent-of-iphone-and-android-open-source-apps-violate-licenses.html
+http://au.ibtimes.com/articles/424070/20130115/five-common-apps-android-ios.html 
+https://42matters.com/api/
+
+4.Proposed System:
+Functional:
+In our application an user with either android or windows phone can download apps. First the user needs to register in the sign up page if they want to download the apps. Guest users can only view the apps. This app will guide the user by suggesting good apps along with the reviews and ratings. Once the user logins the app store will show all the respective apps of their OS. User can search the apps based on the category like games, dictionary, music etc. On selecting the app, the user can view the description, reviews, rating and other suggested apps. User can download the app or view other apps to meet their requirements. The user will get notifications about recommended apps.
+
+Non-functional: 
+System
+Operating System: windows
+Ram: 2GB
+Hard disk: 500GB
+Technical
+Tools: Visual Studio
+Languages: Java, C#, ASP.net, ADO.net
+Database: SQL Server, SQLite
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.Framework Specification:
+Architecture Diagram
+
+ 
+
+
+Class diagram
+ 
+
+ Sequence diagram 
+ 
+Activity diagram
+				        
+Operational description
+	First the user needs to register in the sign up page if they want to download the apps. 
+	Once the user logins the app store will show all the respective apps of their OS. 
+	User can search the apps based on the category like games, dictionary, music etc. 
+	On selecting the app, the user can view the description, reviews, rating and other suggested apps. 
+	User can download the app or view other apps to meet their requirements. The user will get notifications about recommended apps.
+Constraints/exceptions
+	Gathering the original data from the apps is one of the primary constraint.
+	Identifying the O.S. and notifying the user regarding the applications and allowing them to install is the major task.
+
+Priorities (degree of importance, difficulty, etc.)
+	Developing the application with very attractive and easy to navigate user interface is s of highest priority.
+	Gather the information regarding the apps of different O.S is the next step.
+	Deploying the web application is the further step.
+
+
+
+6.Testcases:
+Test Cases For Logins
+Test	Input	Actual output	Expected output	Description
+Valid login	Valid username& valid password	Login successful	Login successful	Test passed
+Invalid login	Invalid username or invalid password	Login not successful	Login not successful	Test passed
+Invalid login	Null, null	Fields should not be empty	Fields should not be empty	Test passed
+
+				
+
+
+
+
+
+Test Cases For User Registration
+Test	Input	Received output	Actual output	Description
+Valid registration	Valid email id& password & ph.no	Valid registration	Valid registration	Test passed
+Invalid registration	Invalid email id	Email id must not contain more than one @	Email id must not contain more than one @	Test passed
+Invalid registration	Password=null	Field must not be empty	Field must not be empty	Test passed
+Invalid registration	Invalid user name	User name should not contain numbers	User name should not contain numbers	Test passed
+
+	
+
+7.Plan by Services (using ScrumDo):
+https://www.scrumdo.com/projects/project/app_store/iteration/111982
+8.Screenshots:
+
+Screenshot for login page 
+
+ 
+
+
+
+
+
+
+Screenshot for Registration page
+ 
+
+
+
+
+
+
+
+Screenshot for registration validation
+
+ 
+
+
+
+
+
+
+
+
+
+Screenshot after user logs in
+ 
+
+
+Screenshot after user chooses an O.S.
+ 
+
+9.Bibliography:
+http://developer.android.com/training/basics/firstapp/index.html?hl=p
+http://msdn.microsoft.com/en-us/windowsmobile/bb250560.aspx
+https://play.google.com/store?hl=en
+http://www.windowsphone.com/en-us/store 
